@@ -1,2 +1,5 @@
-#می خواهیم سوال اول را حل کنیم 
-print ("We want to solve the first problem in the first step.")
+c = 0
+for i in range (1 , 1000):
+    if i % 3 == 0 or i % 5 == 0 :
+        c += i
+print(c)
